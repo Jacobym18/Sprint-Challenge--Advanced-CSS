@@ -1,5 +1,23 @@
-.center(@justify, @align){
+.img-resize{
+    width: 100%;
+}
+.center(@align){
     display: flex;
-    justify-content: @justify;
     align-items: @align;
+}
+.button(@bg,@color){
+    display: inline-block;
+    background-color: @bg;
+    color:@color;
+    border-radius: 12px;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
 }
